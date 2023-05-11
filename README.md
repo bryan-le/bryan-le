@@ -1,84 +1,73 @@
-# React JS Resume Website Template
+# 0xFolio
 
-![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
+0xFolio is a free-to-use portfolio HTML template for developers. It contains very simple, responsive and optmized code. Code is sum of several components which can be reused in any project very easily.
 
-<div align="center">
+**Live preview:** https://0xali.com/0xfolio
 
-<img alt="GitHub release (latest by date including pre-releases" src="https://img.shields.io/github/v/release/tbakerx/react-resume-template?include_prereleases">
+![0xFolio preview](https://i.imgur.com/CQFoEmG.png)
 
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/tbakerx/react-resume-template?style=flat">
+### Features
 
-<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/tbakerx/react-resume-template?style=flat&color=success">
+- Completely responsive design
+- Mobile first approach
+- Responsive images
+- Clean and readable code
+- Usable Sass components
+- Based on Sass recommended [architecture](https://sass-guidelin.es/#architecture) (7-1 pattern)
+- SVG icons
+  **Note:** I recommend using [Befunky](https://www.befunky.com/create/) for manually optimizing images (you can do it in your code if you want). Check `/img` dir to get an idea about image resolutions I used.
 
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tbakerx/react-resume-template?style=flat&color=yellow">
+## Getting Started
 
-<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/tbakerx/react-resume-template/react?style=flat">
+These instructions will get you a copy of this project on your local machine.
 
-<img alt="Github Repo Sponsors" src="https://img.shields.io/github/sponsors/tbakerx?style=flat&color=blueviolet">
+### Prerequisites
 
-## React based template for software developer-focused resume websites
+- [Node.js](https://nodejs.org/en/download/)
+- [Git](https://git-scm.com/downloads)
+- [Visual Studio Code](https://code.visualstudio.com/download) (optional)
 
-</div>
+### Cloning and building
 
-### View a [live demo here.](https://reactresume.com)
+Running the commands in your terminal will clone and build a copy of this template on your machine locally.
 
-#### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/sponsors/tbakerx) the project
+Start by cloning the repository on your local machine using git
 
-### 🎉 Version 2 is here! New features:
-1. Completely rebuilt with React and full typescript support
-2. Built on the [Next.js](https://nextjs.org/) framework for easy server side rendering/static generation, image optimization, api routes, and deployment
-3. Styled entirely with [TailwindCss](https://tailwindcss.com/)
-4. Re-organized data population file for customizing site.
-5. Significant improvement/modernization of all site sections
- 
-**Looking for the old version? You can find it [here.](https://github.com/tbakerx/react-resume-template/releases/tag/v1.0.0)**
+    git clone https://github.com/0xaliraza/0xfolio
 
-## Description
+Change directory
 
-This is a React based personal resume website template. Built with typescript on the Next.js framework, styled with Tailwind css, and populated with data from a single file, you can easily create, customize and host your own personal website in minutes. Even better, the site is fully mobile-optimized and server-side rendered to ensure fast loading and a clean UI on any device. Read on to learn how to make it your own.
+    cd 0xfolio/
 
-## Make it Your Own!
+Install required npm modules for building scss locally
 
-### 1. Make sure you have what you need
+    npm install
 
-To build this website, you will need to have the latest stable versions of Node and Yarn downloaded and installed on your machine. If you don't already have them, you can get Node [here,](https://nodejs.org/en/download/) and Yarn [here.](https://yarnpkg.com/getting-started/install)
+Now let's build all the Sass files to CSS by this useful `build` npm script
 
-### 2. Fork and download this repo (and star if you like!)
+    npm run build
 
-Next, find the `Fork` button in the top right of this page. This will allow you to make your own copy, for more info on forking repo's see [here.](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) After this, download to your development machine using the green `Code` button at the top of the repo page.
+![Results](https://i.imgur.com/DRdGnjF.png)
 
-### 3. Install dependencies and run
+## CSS Frameworks Used
 
-Once you have your own copy of this repo forked and downloaded, open the folder in your favorite terminal and run `yarn install` to install dependencies. Following this, run `yarn dev` to run the project. In your terminal you should be given the url of the running instance (usually http://localhost:3000 unless you have something else running).
+- [Sass](https://sass-lang.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
-### 4. Customize the data to make it your own
+## Authors
 
-All of the data for the site is driven via a file at `/src/data/data.tsx`. This is where you'll find the existing content, and updating the values here will be reflected on the site. If you have the site running as described above, you should see these changes reflected on save. The data types for all of these items are given in the same folder in the `dataDef.ts` file. Example images can be found at `src/images/` and are imported in the data file. To change, simply update these images using the same name and location, or add new images and update the imports. 
+[Ali Raza](https://0xali.com) (me) **🙃**
 
-### 5. Hook up contact form
-Due to the variety of options available for contact form providers, I've hooked up the contact form only so far as handling inputs and state. Form submission and the actual sending of the email is open to your own implementation. My personal recommendation for email provider is [Sendgrid.](https://sendgrid.com/)
+## License
 
-### 6. Make any other changes you like
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-Of course, all of the code is there and nothing is hidden from you so if you would like to make any other styling/data changes, feel free!
+## Find Me Online
 
-### 7. Deploy to Vercel and enjoy your new Resume Website
+Feel free to contact me for any kind of help or information. Let's get connected! :)
 
-Deploying your new site to Vercel is simple, and can be done by following their guide [here.](https://vercel.com/guides/deploying-nextjs-with-vercel) When you're all done and the build succeeds, you should be given a url for your live site, go there and you'll see your new personal resume website! Congratulations!
-
-## Project Created & Maintained By
-
-### Tim Baker
-
-<a href="https://twitter.com/timbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a><a href="https://instagram.com/tbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
-
-[![GitHub followers](https://img.shields.io/github/followers/tbakerx.svg?style=social&label=Follow)](https://github.com/tbakerx/)
-
-## Stargazers
-
-[![Stargazers repo roster for @tbakerx/react-resume-template](https://reporoster.com/stars/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/stargazers)
-
-## Forkers
-
-[![Forkers repo roster for @tbakerx/react-resume-template](https://reporoster.com/forks/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/network/members)
-
+- [Website](https://0xali.com)
+- [Github](https://github.com/0xaliraza)
+- [Twitter](https://twitter.com/0xaliraza)
+- [Medium](https://medium.com/@0xaliraza)
+- [Linkedin](https://www.linkedin.com/in/ali-raza-937339159/)
