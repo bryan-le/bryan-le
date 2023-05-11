@@ -4853,6 +4853,9 @@ p {
   @media (min-resolution: 192dpi) {
     .header {
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://raw.githubusercontent.com/bryan-le/bryan-le/main/img/bg/header-bg-md.jpg"); } }
+  @media only screen and (max-width: 768px) {
+    .header {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://raw.githubusercontent.com/bryan-le/bryan-le/main/img/bg/header-bg-mobile.jpg"); } }
   @media only screen and (min-width: 100em) {
     .header {
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://raw.githubusercontent.com/bryan-le/bryan-le/main/img/bg/header-bg-md.jpg"); } }

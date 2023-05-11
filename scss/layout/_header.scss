@@ -12,6 +12,8 @@
 			rgba($color-black, 0.7)
 		),
 		asset($base-url, 'img/bg/', 'header-bg-sm.jpg');
+
+
 	@media (min-resolution: 192dpi) {
 		background-image: linear-gradient(
 				to right,
@@ -19,6 +21,16 @@
 				rgba($color-black, 0.7)
 			),
 			asset($base-url, 'img/bg/', 'header-bg-md.jpg');
+	}
+
+	// Phone screen
+	@media only screen and (max-width: 768px) {
+		background-image: linear-gradient(
+										to right,
+										rgba($color-black, 0.7),
+										rgba($color-black, 0.7)
+		),
+		asset($base-url, 'img/bg/', 'header-bg-mobile.jpg');
 	}
 
 	// Above 1600px
