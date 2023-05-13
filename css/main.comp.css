@@ -4856,10 +4856,7 @@ p {
 				rgba($color-black, 0.7)
 			),
 			asset($base-url, 'img/bg/', 'header-bg-md.jpg');
-	} */
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; }
+	} */ }
   @media only screen and (max-width: 768px) {
     .header {
       width: auto;
