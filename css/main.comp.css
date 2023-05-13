@@ -4847,26 +4847,17 @@ p {
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://raw.githubusercontent.com/bryan-le/bryan-le/main/img/bg/header-bg-sm.jpg");
-  /*
-		@media (min-resolution: 192dpi) {
-		background-image: linear-gradient(
-				to right,
-				rgba($color-black, 0.7),
-				rgba($color-black, 0.7)
-			),
-			asset($base-url, 'img/bg/', 'header-bg-md.jpg');
-	} */ }
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://raw.githubusercontent.com/bryan-le/bryan-le/main/img/bg/header-bg-sm.jpg"); }
   @media only screen and (max-width: 768px) {
     .header {
       width: auto;
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://raw.githubusercontent.com/bryan-le/bryan-le/main/img/bg/header-bg-mobile.jpg");
       background-size: contain;
-      background-repeat: no-repeat; } }
+      background-repeat: no-repeat;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://raw.githubusercontent.com/bryan-le/bryan-le/main/img/bg/header-bg-mobile.jpg"); } }
   @media only screen and (min-width: 100em) {
     .header {
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://raw.githubusercontent.com/bryan-le/bryan-le/main/img/bg/header-bg-md.jpg");
-      background-size: contain; } }
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://raw.githubusercontent.com/bryan-le/bryan-le/main/img/bg/header-bg-md.jpg"); } }
   @media only screen and (min-width: 120em) {
     .header {
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://raw.githubusercontent.com/bryan-le/bryan-le/main/img/bg/header-bg-lg.jpg"); } }
