@@ -26,6 +26,7 @@
 
 	// Phone screen
 	@media only screen and (max-width: 768px) {
+		width: auto;
 		background-image: linear-gradient(
 										to right,
 										rgba($color-black, 0.7),
@@ -33,6 +34,7 @@
 		),
 		asset($base-url, 'img/bg/', 'header-bg-mobile.jpg');
 		background-size: contain;
+		background-repeat: no-repeat;
 	}
 
 	// Above 1600px
@@ -55,7 +57,7 @@
 			asset($base-url, 'img/bg/', 'header-bg-lg.jpg');
 	}
 
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 
