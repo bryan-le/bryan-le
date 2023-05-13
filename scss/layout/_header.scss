@@ -5,6 +5,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-size: cover;
 
 	background-image: linear-gradient(
 			to right,
@@ -31,6 +32,8 @@
 										rgba($color-black, 0.7)
 		),
 		asset($base-url, 'img/bg/', 'header-bg-mobile.jpg');
+		background-size: contain;
+		background-position: center center;
 	}
 
 	// Above 1600px
@@ -41,6 +44,8 @@
 				rgba($color-black, 0.7)
 			),
 			asset($base-url, 'img/bg/', 'header-bg-md.jpg');
+			background-size: contain;
+			background-position: center center;
 	}
 	// Above 1920px
 	@media only screen and (min-width: 120em) {
