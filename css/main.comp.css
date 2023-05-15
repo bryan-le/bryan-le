@@ -4852,9 +4852,8 @@ p {
   @media only screen and (max-width: 768px) {
     .header {
       width: auto;
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
-      background-position: center;
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://raw.githubusercontent.com/bryan-le/bryan-le.github.io/main/img/bg/header-bg-mobile.jpg"); } }
   @media only screen and (min-width: 100em) {
     .header {
@@ -4923,9 +4922,11 @@ p {
       border-bottom: 2px solid #0984e3; }
   .navbar-top .navbar-nav .active > .nav-link {
     border-bottom: 2px solid #0984e3; }
-  @media (min-width: 768px) {
-    .navbar-top .navbar-brand {
-      font-size: 1.4375rem; } }
+  .navbar-top .navbar-brand {
+    align: left; }
+    @media (min-width: 768px) {
+      .navbar-top .navbar-brand {
+        font-size: 1.4375rem; } }
   .navbar-top .navbar-toggler {
     border: none; }
     .navbar-top .navbar-toggler:hover, .navbar-top .navbar-toggler:focus, .navbar-top .navbar-toggler:active {
@@ -4949,6 +4950,12 @@ p {
   background-position: center;
   background-attachment: fixed;
   overflow: auto; }
+  @media only screen and (max-width: 768px) {
+    .footer {
+      width: auto;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://raw.githubusercontent.com/bryan-le/bryan-le.github.io/main/img/bg/footer-bg-sm.jpg"); } }
   @media (min-resolution: 192dpi) {
     .footer {
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://raw.githubusercontent.com/bryan-le/bryan-le.github.io/main/img/bg/footer-bg-md.jpg"); } }

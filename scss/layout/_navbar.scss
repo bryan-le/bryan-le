@@ -41,6 +41,7 @@
 		@include media-breakpoint-up(md) {
 			font-size: pxToRem(23);
 		}
+		align:left;
 	}
 	.navbar-toggler {
 		&:hover,
